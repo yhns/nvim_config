@@ -29,6 +29,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'bluz71/vim-moonfly-colors'
 Plug 'itsook/ok.nvim', { 'as': 'ok' }
+Plug 'mattn/emmet-vim'
 
 call plug#end()
 
@@ -43,15 +44,39 @@ call plug#end()
 
 " COLORSCHEME ---------------------
 "
+"
 " colorscheme tokyonight
 "
+"
+"
 " colorscheme moonfly
-" 
+"
+"
+"
 " set background=dark
 " set termguicolors
 " colorscheme deep-space
 "
-colorscheme ok
+"
+"
+" colorscheme ok
+"
+"
+"
+" colorscheme gotham256
+" let g:lightline = { 'colorscheme': 'gotham256' }
+
+
+
+" set background=dark
+" let g:two_firewatch_italics=1
+" colorscheme two-firewatch
+
+
+
+colorscheme paramount
+
+
 
 " NVIM.COC ------------------------
 "
